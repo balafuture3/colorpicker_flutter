@@ -1,3 +1,3 @@
-## 0.0.1
+## 1.0.2 - 2022-02-03
 
-* TODO: Describe initial release.
+* Color picker for flutter apps.

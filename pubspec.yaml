@@ -1,7 +1,7 @@
 name: colorpicker_flutter
-description: Color picker for flutter apps.
-version: 1.0.0
-homepage:
+description: This Color picker for flutter apps provide picking facility for both single and multiple color choosing.
+version: 1.0.2
+homepage: https://github.com/balafuture3/colorpicker_flutter.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -14,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^1.0.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
