@@ -49,14 +49,14 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var color;
+  var color=Colors.white;
 
 
 
   Future<void> _pickcolor() async {
 
      color= await ColorpickerState.colorChooseSingle(context);
-     print(color);
+     // print(color);
      setState(() {
 
      });
