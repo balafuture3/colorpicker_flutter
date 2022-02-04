@@ -1,6 +1,6 @@
 name: colorpicker_flutter
 description: This Color picker for flutter apps provide picking facility for both single and multiple color choosing.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/balafuture3/colorpicker_flutter.git
 
 environment:
