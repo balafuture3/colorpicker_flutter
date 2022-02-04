@@ -21,7 +21,6 @@ class ColorpickerState extends State<Colorpicker> {
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
             backgroundColor: Colors.white.withOpacity(0.9),
             title: const Center(child: Text("Choose Color",style:TextStyle(fontWeight: FontWeight.w800),)),
-            
             content: StatefulBuilder(
               builder: (BuildContext context,
                   void Function(void Function()) setState) {
@@ -44,7 +43,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.blue
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.blue,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -68,7 +76,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.green
-                                  ? const Icon(Icons.check)
+                                  ? const  CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.green,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -91,7 +108,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.red
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.red,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -114,7 +140,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.yellow
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.yellow,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -137,7 +172,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.purple
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.purple,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -160,7 +204,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.pink
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.pink,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -183,7 +236,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.brown
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.brown,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -206,7 +268,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.grey
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.grey,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -229,7 +300,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.cyan
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.cyan,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -252,7 +332,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.deepOrange
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.deepOrange,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -275,7 +364,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.indigo
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.indigo,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -298,7 +396,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.lightBlue
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.lightBlue,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -321,7 +428,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.lime
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.lime,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -344,7 +460,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.greenAccent
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.greenAccent,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -367,7 +492,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.tealAccent
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.tealAccent,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
@@ -390,13 +524,88 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorvalue == Colors.pinkAccent
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.pinkAccent,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                           ),
                           onTap: () {
                             setState(() {
                               colorvalue = Colors.pinkAccent;
+                            });
+                          },
+                        ),
+
+                        GestureDetector(
+                          child: Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                margin: const EdgeInsets.all(10),
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(50)),
+                              ),
+                              colorvalue == Colors.white
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.black,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.white,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
+                                  : Container()
+                            ],
+                          ),
+                          onTap: () {
+                            setState(() {
+                              colorvalue = Colors.white;
+                            });
+                          },
+                        ),
+
+                        GestureDetector(
+                          child: Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                margin: const EdgeInsets.all(10),
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: BorderRadius.circular(50)),
+                              ),
+                              colorvalue == Colors.black
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.white,),
+                                  backgroundColor: Colors.black,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
+                                  : Container()
+                            ],
+                          ),
+                          onTap: () {
+                            setState(() {
+                              colorvalue = Colors.black;
                             });
                           },
                         ),
@@ -428,14 +637,15 @@ class ColorpickerState extends State<Colorpicker> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            backgroundColor: Colors.transparent,
-            title: const Text("Choose Color"),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+            backgroundColor: Colors.white.withOpacity(0.9),
+            title: const Center(child: Text("Choose Colors",style:TextStyle(fontWeight: FontWeight.w800),)),
             content: StatefulBuilder(
               builder: (BuildContext context,
                   void Function(void Function()) setState) {
                 return SingleChildScrollView(
                   child: SizedBox(
-                    height: MediaQuery.of(context).size.height/2,
+                    height: MediaQuery.of(context).size.height/3,
                     width: MediaQuery.of(context).size.width,
                     child: GridView.count(
                       crossAxisCount: 4,
@@ -452,7 +662,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorlist.any((element) => element == Colors.blue)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.blue,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -488,7 +707,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist
                                       .any((element) => element == Colors.green)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.green,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -522,7 +750,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorlist.any((element) => element == Colors.red)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.red,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -557,7 +794,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any(
                                       (element) => element == Colors.yellow)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.yellow,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -592,7 +838,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any(
                                       (element) => element == Colors.purple)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.purple,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -626,7 +881,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorlist.any((element) => element == Colors.pink)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.pink,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -661,7 +925,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist
                                       .any((element) => element == Colors.brown)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.brown,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -695,7 +968,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorlist.any((element) => element == Colors.grey)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.grey,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -729,7 +1011,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorlist.any((element) => element == Colors.cyan)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.cyan,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -764,7 +1055,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any(
                                       (element) => element == Colors.deepOrange)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.deepOrange,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -799,7 +1099,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any(
                                       (element) => element == Colors.indigo)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.indigo,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -834,7 +1143,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any(
                                       (element) => element == Colors.lightBlue)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.lightBlue,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -868,7 +1186,16 @@ class ColorpickerState extends State<Colorpicker> {
                                     borderRadius: BorderRadius.circular(50)),
                               ),
                               colorlist.any((element) => element == Colors.lime)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.lime,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -903,7 +1230,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any((element) =>
                                       element == Colors.greenAccent)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.greenAccent,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -938,7 +1274,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any(
                                       (element) => element == Colors.tealAccent)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.tealAccent,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -973,7 +1318,16 @@ class ColorpickerState extends State<Colorpicker> {
                               ),
                               colorlist.any(
                                       (element) => element == Colors.pinkAccent)
-                                  ? const Icon(Icons.check)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.pinkAccent,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
                                   : Container()
                             ],
                             alignment: Alignment.center,
@@ -990,6 +1344,96 @@ class ColorpickerState extends State<Colorpicker> {
                                 colorlist.add(Colors.pinkAccent);
                               } else {
                                 colorlist.remove(Colors.pinkAccent);
+                              }
+                            });
+                            // print(colorlist);
+                          },
+                        ),
+
+                        GestureDetector(
+                          child: Stack(
+                            children: [
+                              Container(
+                                height: 70,
+                                width: 70,
+                                margin: const EdgeInsets.all(10),
+                                decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(50)),
+                              ),
+                              colorlist.any(
+                                      (element) => element == Colors.white)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.black,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.black,),
+                                  backgroundColor: Colors.white,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
+                                  : Container()
+                            ],
+                            alignment: Alignment.center,
+                          ),
+                          onTap: () {
+                            setState(() {
+                              int cnt = 0;
+                              for (int i = 0; i < colorlist.length; i++) {
+                                if (colorlist[i] == Colors.white) {
+                                  cnt++;
+                                }
+                              }
+                              if (cnt == 0) {
+                                colorlist.add(Colors.white);
+                              } else {
+                                colorlist.remove(Colors.white);
+                              }
+                            });
+                            // print(colorlist);
+                          },
+                        ),
+
+                        GestureDetector(
+                          child: Stack(
+                            children: [
+                              Container(
+                                height: 70,
+                                width: 70,
+                                margin: const EdgeInsets.all(10),
+                                decoration: BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: BorderRadius.circular(50)),
+                              ),
+                              colorlist.any(
+                                      (element) => element == Colors.black)
+                                  ? const CircleAvatar(
+                                radius: 22,
+                                backgroundColor: Colors.white,
+                                child: CircleAvatar(
+                                  radius: 20,
+                                  child: Icon(Icons.check,color: Colors.white,),
+                                  backgroundColor: Colors.black,
+                                  // backgroundImage: Icon(Icons.check),
+                                ),
+                              )
+                                  : Container()
+                            ],
+                            alignment: Alignment.center,
+                          ),
+                          onTap: () {
+                            setState(() {
+                              int cnt = 0;
+                              for (int i = 0; i < colorlist.length; i++) {
+                                if (colorlist[i] == Colors.black) {
+                                  cnt++;
+                                }
+                              }
+                              if (cnt == 0) {
+                                colorlist.add(Colors.black);
+                              } else {
+                                colorlist.remove(Colors.black);
                               }
                             });
                             // print(colorlist);

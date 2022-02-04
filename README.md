@@ -23,7 +23,16 @@ This Color picker for flutter apps provide picking facility for both single and 
 
 Just go through example to get code and make the color picker in easy way.
 
-![image info](./image.png)
+To pick single color
+
+![image info](./single.jpeg)
+
+
+To pick multiple colors
+
+![image info](./multiple.jpeg)
+
+
 
 ## Usage
 ```dart
