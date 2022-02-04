@@ -1,5 +1,4 @@
 library colorpicker_flutter;
-
 import 'package:flutter/material.dart';
 
 class Colorpicker extends StatefulWidget {
@@ -10,8 +9,8 @@ class Colorpicker extends StatefulWidget {
 }
 
 class ColorpickerState extends State<Colorpicker> {
-  static var colorvalue = Colors.white;
 
+  static var colorvalue = Colors.white;
   static List<dynamic> colorlist=[];
 
   static Future<Color> colorChooseSingle(context) async {
@@ -19,13 +18,16 @@ class ColorpickerState extends State<Colorpicker> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: const Text("Choose Color"),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+            backgroundColor: Colors.white.withOpacity(0.9),
+            title: const Center(child: Text("Choose Color",style:TextStyle(fontWeight: FontWeight.w800),)),
+            
             content: StatefulBuilder(
               builder: (BuildContext context,
                   void Function(void Function()) setState) {
                 return SingleChildScrollView(
                   child: SizedBox(
-                    height: 450,
+                    height: MediaQuery.of(context).size.height/3,
                     width: MediaQuery.of(context).size.width,
                     child: GridView.count(
                       crossAxisCount: 4,
@@ -426,13 +428,14 @@ class ColorpickerState extends State<Colorpicker> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
+            backgroundColor: Colors.transparent,
             title: const Text("Choose Color"),
             content: StatefulBuilder(
               builder: (BuildContext context,
                   void Function(void Function()) setState) {
                 return SingleChildScrollView(
                   child: SizedBox(
-                    height: 450,
+                    height: MediaQuery.of(context).size.height/2,
                     width: MediaQuery.of(context).size.width,
                     child: GridView.count(
                       crossAxisCount: 4,

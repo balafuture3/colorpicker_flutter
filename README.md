@@ -23,6 +23,7 @@ This Color picker for flutter apps provide picking facility for both single and 
 
 Just go through example to get code and make the color picker in easy way.
 
+![image info](./image.png)
 
 ## Usage
 ```dart
@@ -47,8 +48,4 @@ Just go through example to get code and make the color picker in easy way.
 
 ```
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
