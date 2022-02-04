@@ -25,10 +25,20 @@ Just go through example to get code and make the color picker in easy way.
 
 To pick single color
 
+![image info](./singlemob.jpeg)
+
+
+
 ![image info](./single.jpeg)
 
 
+
+
 To pick multiple colors
+
+
+![image info](./multiplemob.jpeg)
+
 
 ![image info](./multiple.jpeg)
 
